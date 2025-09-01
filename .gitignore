@@ -35,3 +35,48 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Logs ###
+*.log
+logs/
+log/
+
+### Env / Secrets ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+*.pem
+*.key
+*.p12
+*.jks
+
+### JVM Crash ###
+hs_err_pid*
+replay_pid*
+
+### Build Artifacts ###
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+### OS / Misc ###
+Thumbs.db
+Desktop.ini
+
+### Claude Code / OMC ###
+.omc/
+.claude/
+CLAUDE.local.md
